@@ -1,10 +1,11 @@
 
 import './App.css';
+import Intro from "./components/Intro/intro.jsx"
 
 const App = ()  => {
   return (
     <div className="App">
-<hi>Tonya Dearman</hi>
+<Intro />
     </div>
   );
 }
