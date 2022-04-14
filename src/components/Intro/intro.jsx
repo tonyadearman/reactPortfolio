@@ -10,16 +10,16 @@ const Intro = () => {
           <h1 className="i-name">Tonya Dearman</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
-              <div className="i-title-item">Front-End Web Developer</div>
+              <div className="i-title-item">Front-End Developoer</div>
               <div className="i-title-item">Back-End Developer</div>
               <div className="i-title-item">Writer</div>
               <div className="i-title-item">Content Creator</div>
             </div>
           </div>
           <p className="i-desc">
-           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda at nisi corporis ipsum, 
-           voluptatibus voluptates, numquam expedita ullam hic est atque molestiae similique corrupti pariatur 
-           commodi officiis dolore dolorem repellat.
+            I design and develop services for customers of all sizes,
+            specializing in creating stylish, modern websites, web services and
+            online stores.
           </p>
         </div>
         <svg
