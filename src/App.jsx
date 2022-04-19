@@ -1,17 +1,26 @@
-import './App.css';
-import About from "./components/about/About"
-import Intro from "./components/intro/Intro"
-import Contact from "./components/contact/Contact"
+import React from 'react';
+import Intro from './components/intro/Intro';
+import About from './components/about/About';
+// import Product from './components/product/Product'
+import ProductList from './components/productList/ProductList'
+import Contact from './components/contact/Contact';
 
-const App = ()  => {
+
+
+const App = () => {
+
   return (
-    <div className="App">
+    <div>
+
       <Intro />
-      <About />
-      <Contact />
     
+      <About />
+      {/* <Product /> */}
+      <ProductList />
+      <Contact />
+
     </div>
   );
-}
+};
 
 export default App;

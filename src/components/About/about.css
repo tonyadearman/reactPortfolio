@@ -21,7 +21,7 @@
     position: absolute;
     top: 50px;
     left: 50px;
-    background-color: #466eab;
+    background-color: #00203e;
   }
   
   .a-card {
@@ -39,8 +39,8 @@
   }
   
   .a-award-img {
-    width: 120px;
-    height: 120px;
+    width: 500px;
+    height: 500px;
     border-radius: 20px;
   }
   
@@ -69,8 +69,14 @@
   
   .a-award-title{
       font-weight: bold;
-      color: #555;
+      color: #00203e;
       margin-bottom: 10px;
+  }
+
+  .javascript {
+      height: 10%;
+      width: 10%;
+      
   }
   
   @media screen and (max-width:480px) {
@@ -85,7 +91,7 @@
       }
   
       .a-card {
-        height: 30vh;
+        height: 70vh;
       }
   
       .a-card.bg, .a-award {
